@@ -30,7 +30,6 @@ def send_email():
   # add in the message body
   msg.attach(MIMEText(message, 'plain'))
 
-
   #create server
   server = smtplib.SMTP('smtp.gmail.com: 587')
 
