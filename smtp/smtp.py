@@ -36,5 +36,5 @@ def send_email(arguments):
 
   server.quit()
 
-  print("Email sended to:", arguments[1])
+  print("Log information sent to: {}".format(arguments[1]))
   exit()
