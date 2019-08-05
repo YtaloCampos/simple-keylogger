@@ -37,3 +37,4 @@ def send_email(arguments):
   server.quit()
 
   print("Email sended to:", arguments[1])
+  exit()
