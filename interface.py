@@ -176,5 +176,6 @@ class Application:
 window = Tk()
 window.title("Sislog")
 window.resizable(False, False)
+window.iconbitmap('icons/icon_key.ico')
 Application(window)
 window.mainloop()
